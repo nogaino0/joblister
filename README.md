@@ -6,11 +6,15 @@ this is a simple app for job listing
 
 1) Create a database named : joblister
 
+2) import to it (database) the file above named joblister.sql
+
+## OR
+
 2) create an sql file named : joblister.sql
 
-3) past in joblister.sql the following sql code :
+3) past in joblister.sql the following sql code, and import it to joblister database
 
-Start sql code
+## joblister.sql file code
 
 ```
 -- phpMyAdmin SQL Dump
