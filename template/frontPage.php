@@ -1,1 +1,7 @@
-FRONTPAGE
+<?php 
+
+	echo $title;
+	echo $pageLink;
+
+
+ ?>

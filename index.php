@@ -1,4 +1,12 @@
-<?php include_once 'config/init.php'; ?>
+<?php include_once 'config/init.php';
+
+	$template = new Template("template/frontPage.php");
+	$template->title = "Latest Jobs";
+
+
+	echo $template;
+
+ ?>
 
 <!DOCTYPE html>
 <html>
@@ -9,13 +17,7 @@
 </head>
 <body>
 
-	<?php 
 
-	$t = new Template("template/frontPage.php");
-
-	echo $t;
-
-	 ?>
 
 </body>
 </html>
